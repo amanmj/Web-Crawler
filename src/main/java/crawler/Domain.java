@@ -1,3 +1,4 @@
+package crawler;
 public class Domain 
 {
     String url;

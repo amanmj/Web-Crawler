@@ -1,3 +1,4 @@
+package crawler;
 public class tools 
 { 
     String main_url;    
@@ -17,7 +18,6 @@ public class tools
     public String parseUrl(String url)
     { 
         Domain domain=new Domain(main_url);
-        //System.out.println("asdasd"+domain.getDomainUrl());
         if(url.equals("#"))
             return "-";
         if(url.contains("#"))
