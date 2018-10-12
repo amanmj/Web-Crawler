@@ -24,7 +24,7 @@ public class user
         //parsing a tag in HTML
         try 
         {
-            HashSet<String> se=new HashSet<String>();
+            Set<String> se=new HashSet<String>();
             Document doc = Jsoup.connect(url).get();                       
             Elements a_tag = doc.select("a");
             for(Element a : a_tag)
