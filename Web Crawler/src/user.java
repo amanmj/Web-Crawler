@@ -20,7 +20,6 @@ public class user
     public void startConnection()
     {
         String url=getUrl();
-        //parsing a tag in HTML
         try 
         {
             HashSet<String> se=new HashSet<String>();
